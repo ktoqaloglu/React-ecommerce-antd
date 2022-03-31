@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Homepage from './component/Homepage';
-import CategoryPage from './component/CategoryPage'
+import Products from './component/Products';
+import {Switch} from 'react-router'
 
 
 
@@ -10,8 +11,8 @@ function App() {
     <div className='app'>
 
       <Routes>
-        <Route exact path='/' element={<Homepage />} />
-        <Route exact path="/:_id/products" element={<CategoryPage />} />
+        <Route exact path='/' element={<Homepage />} /> 
+        <Route  path="/:categoryId/products" element={<Products />} /> 
       </Routes>
     </div>
   );
