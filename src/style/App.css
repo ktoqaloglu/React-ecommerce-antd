@@ -1,0 +1,26 @@
+.nav-container{
+    padding: 0 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f1f1;
+}
+.logo {
+  margin-right: 4rem;
+  }
+.logo-link{
+    font-family: 'Raleway', sans-serif;
+    color: darkslategray;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem .5rem;
+    text-transform: uppercase;
+}
+.nav-link{
+    color: gray;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.nav-link:hover{
+    font-size: 1.2rem;
+    color: darkgray;
+}
